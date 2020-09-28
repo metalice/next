@@ -5,4 +5,5 @@
 2. Run "npm run first"
 
 ## Usage
-1. Open web browser at "http://localhost:3001
+1. Run "npm start"
+2. Open web browser at "http://localhost:3001
