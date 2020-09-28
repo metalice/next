@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server/server.js"
+    "first": "npm i && cd client && npm i",
+    "start": "concurrently \"node server\" \"cd client && npm start\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/next-insurance/next-test#readme",
   "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "path": "^0.12.7"
